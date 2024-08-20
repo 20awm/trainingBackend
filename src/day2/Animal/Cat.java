@@ -1,7 +1,8 @@
 package day2.Animal;
 
 class Cat extends Animal {
-    private static final String zooDestination = "Taman Safari";
+    private static final String zooDestination =
+            "Taman Safari";
     public class InnerClass {
         public void zooNameTwo() {
             System.out.println(
