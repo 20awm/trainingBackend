@@ -14,9 +14,9 @@ public class DataBuku implements Perpustakaan {
         buku.add("Harry Potter 1");
         buku.add("Harry Potter 2");
         buku.add("Harry Potter 3");
-//        buku.add("Harry Potter 4");
-//        buku.add("Harry Potter 5");
-//        buku.add("Harry Potter 6");
+        buku.add("Harry Potter 4");
+        buku.add("Harry Potter 5");
+        buku.add("Harry Potter 6");
         return buku;
     }
 

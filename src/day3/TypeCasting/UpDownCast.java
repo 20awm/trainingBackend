@@ -16,18 +16,18 @@ public class UpDownCast {
     public static void main(String[] args) {
 
         // Variable Casting
-        float phi = 3.14f;
-        int wholePhi = (int) phi;
-        System.out.println("Phi in whole number: " + wholePhi);
+//        float phi = 3.14f;
+//        int wholePhi = (int) phi;
+//        System.out.println("Phi in whole number: " + wholePhi);
         System.out.println();
 
         // Object Upcasting
-//        DeveloperAlif devA = new ProjectManager();
-//        devA.infoDev();
+        DeveloperAlif devA = new ProjectManager();
+        devA.infoDev();
 
         // Object Downcasting
-//        ProjectManager pm = (ProjectManager) devA;
-//        pm.info();
+        ProjectManager pm = (ProjectManager) devA;
+        pm.info();
 
     }
 }

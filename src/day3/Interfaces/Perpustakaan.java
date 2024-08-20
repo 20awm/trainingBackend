@@ -5,17 +5,17 @@ import java.util.LinkedList;
 public interface Perpustakaan {
 
     int maxBookCapacity = 5;
-    String errorMsg = "Total buku sudah melebihi kapasitas maksimum";
+    String errorMsg = "Total buku sudah melebihi kapasitas maksimum yaitu " + maxBookCapacity;
 
     int totalBook();
     LinkedList<String> listBook();
 
-    default void welcomeMessage() {
+    static void welcomeMessage() {
         System.out.println("Selamat Datang di Perpustakaan");
         libraryLocation();
 
     }
-    private void libraryLocation() {
+    static void libraryLocation() {
         System.out.println("Lokasi: Jakarta, Indonesia");
     }
 }
