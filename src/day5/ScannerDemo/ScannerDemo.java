@@ -47,13 +47,12 @@ public class ScannerDemo {
             String userAddress = sc.next();
             LoginSample.getCustomer().setuAddress(userAddress);
         }
-
         validateComplete();
     }
 
     public static void validateComplete() {
         String currentUser = LoginSample.getCustomer().getuName();
         System.out.println("\nWelcome to Tokobagus, " + currentUser + "!\nHappy Shopping!");
-        HomePage.main();
+        HomePage.main("Alif","Pamulang");
     }
 }
